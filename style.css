@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+   
+.body{
+    height: 3000px;
+}
+.logo{
+    color: rgb(90, 14, 104);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    nav a{
+        color: rgba(163, 49, 140, 0.893);
+        text-decoration: none;
+        font-weight: 600px;
+        font-size: 18px;
+        padding-left: 20px;
+    
+    }
+    nav a:hover{
+        color: rgb(216, 172, 205);
+        font-weight: 900px;
+    }
+
+.body {
+    background: #f8c8e5; 
+}
+
+.page-header {
+    background: #804d77;
+    margin: 0;
+}
+
+.profile-head {
+    height: 400px;
+    width: 100%;
+    background-color: #80496f;
+    float: left;
+    position: relative;
+}
+
+.profile-head img {
+    margin: 0 auto;
+    border-radius: 9px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.profile-head h5 {
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    text-align: justify;
+    font-weight: bold;
+    color: #f6ecf3;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.profile-head p {
+    width: 100%;
+    text-align: justify;
+    padding: 0px 5px 5px 5px;
+    color:#f2d2ea ;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.profile-head a {
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+    color: #8c157c;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.profile-head ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-head ul li {
+    display: block;
+    color: #e2bcd4;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.profile-head ul li:hover span {
+    color:#f2d2ea ;
+}
+
+.profile-head ul li span {
+    color: #e4c8db;
+    padding-right: 10px;
+}
+
+
+
+
+.profiles {
+    top: 300px;
+}
+
+
+/*media query*/
+
+ 
+@media all and (min-width:1200px) {
+    a.menu {
+        display: block !important;
+        margin: 9px 2px;
+        float: right;
+        color: rgba(101, 4, 49, 0.98);
+        border: 0px solid;
+        background: none;
+        font-size: 30px;
+        width: 27px;
+        position: relative;
+        cursor: pointer;
+    }}
+
+
+    @media all and (max-width: 768px) {
+        a.menu {
+            display: block !important;
+            margin: 9px 2px;
+            float: right;
+            color: rgba(101, 4, 49, 0.98);
+            border: 0px solid;
+            background: none;
+            font-size: 30px;
+            width: 27px;
+            position: relative;
+            cursor: pointer;
+        }}
+
+    a.menu:hover,
+    a.menu:focus {
+        color: rgb(48, 5, 59);
+    }
+    .drop_menu1 {
+        display: block;
+        visibility: visible;
+        width: 250px;
+        height: 1000px;
+        padding: 5px 30px;
+        position: absolute;
+        right: 0 !important;
+        background-color: #2b0927 !important;
+        transition: all ease 0.5s;
+        border-top: 0px solid;
+        cursor: pointer;
+    }
+
+    @media all and (max-width:430px) {
+        .profile-head ul li {
+            font-size: 13px !important;
+        }
+        .bio-table>tbody>tr>td {
+            font-size: 4px;
+        }
+    }
+#about-section {
+    background: rgba(59, 49, 64, 0.1);
+    position: relative;
+}
+
+.blockabout {
+    padding: 20px;
+    background: rgb(226, 189, 217);
+}
+
+.blockabout-inner {
+    padding: 30px;
+    border: 1px solid rgba(32, 33, 36, 0.1);
+}
+
+.sosmed-horizontal a i {
+    border: 1px solid #ede3ec;
+    border-radius: 50% 20% 40%;
+    color: #ad1b7f;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.rey-btn {
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+footer{
+    border-top: 5px solid rgb(146, 10, 164);
+    background-color: rgb(204, 208, 208);
+    padding-top: 50px;
+    text-align: center;
+ 
+}
+
+
+
+footer{
+    color: rgb(128, 8, 122);
+    font-size: 23px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
